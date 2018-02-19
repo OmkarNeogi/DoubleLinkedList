@@ -45,7 +45,7 @@ class DoubleLinkedList:
 			iterator = iterator.next
 			ind -= 1
 			if not iterator: 
-				# index out of bounds, so append to end. implementation choice.
+				print('Index out of bounds, so appending to end of LinkedList.')
 				break
 		new_node.prev = prev
 		new_node.next = iterator
