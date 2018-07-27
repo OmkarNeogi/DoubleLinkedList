@@ -19,7 +19,7 @@ class DoubleLinkedList:
 		return ind
 	
 	def insert_at_end(self, val=None):
-		if val == None: val = raw_input('enter value of new node')
+		if val is None: val = raw_input('enter value of new node')
 		new_node = DoubleLinkedListNode(val)
 		if not self.head:
 			# empty linkedlist
