@@ -31,7 +31,7 @@ class DoubleLinkedList:
 		iterator.next = new_node
 
 	def insert_at_index(self, val=None, ind=None):
-		if val == None: val = raw_input('enter value of new node')
+		if val is None: val = raw_input('enter value of new node')
 		ind = self._ask_index(ind)
 
 		new_node = DoubleLinkedListNode(val)
